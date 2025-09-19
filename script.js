@@ -57,11 +57,30 @@ nextButton.addEventListener( 'click', function() {
 });
 
 // Setting up functionality for random button
-var nextButton = document.querySelector('.random-button');
-nextButton.addEventListener( 'click', function() {
+var randomButton = document.querySelector('.random-button');
+randomButton.addEventListener( 'click', function() {
   selectedIndex = getRandomInt(0, cellCount);
   rotateRandomCarousel();
 });
+
+// Test show result
+var showButton = document.querySelector('.show-button');
+showButton.addEventListener( 'click', function() {
+  showResult();
+});
+
+function showResult() {
+  var x = document.getElementsByClassName("centered");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function getResult() {
+
+}
 
 var cellsRange = document.querySelector('.cells-range');
 cellsRange.addEventListener( 'change', changeCarousel );
@@ -102,10 +121,6 @@ function onOrientationChange() {
   isHorizontal = checkedRadio.value == 'horizontal';
   rotateFn = isHorizontal ? 'rotateY' : 'rotateX';
   changeCarousel();
-}
-
-function showResult() {
-
 }
 
 // set initials
