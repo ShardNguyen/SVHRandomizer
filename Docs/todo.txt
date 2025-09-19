@@ -1,0 +1,3 @@
+Task 01: Di chuyển vòng quay xuống giữa màn hình
+Task 02: Sau khi quay xong vòng quay, hiển thị kết quả (bao gồm ảnh jacket, tên bài, tác giả, độ khó)
+Task 03: 

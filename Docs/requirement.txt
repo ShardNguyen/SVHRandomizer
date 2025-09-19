@@ -1,0 +1,12 @@
+Yêu cầu chung:
+- Quay random nhìn giống Random Project Sekai
+
+Yêu cầu cụ thể:
+- Khi quay: Thì sẽ chỉ quay ảnh jacket của bài
+- Khi quay xong: Hiển thị tất cả các thông tin của bài được chọn
+- Database:
+	+ Độ khó Expert, Master, Re:Mas sẽ được đặt riêng nên không có trong vòng quay
+
+Lưu ý:
+- Trang random sẽ là riêng
+- Trang chọn bài sẽ là riêng
